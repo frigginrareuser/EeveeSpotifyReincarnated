@@ -41,7 +41,7 @@ struct PlaybackSettingsView: View {
                 }
 
                 if SleepTimer.isActive {
-                    Button(action: SleepTimer.stop) {
+                    Button(action: { SleepTimer.stop() }) {
                         SettingsLabel(title: "sleep_timer_cancel".localized, icon: "stop.fill", color: .red)
                     }
                 }

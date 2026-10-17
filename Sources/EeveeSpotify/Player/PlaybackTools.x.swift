@@ -1,4 +1,5 @@
 import Orion
+import EeveeSpotifyC
 import UIKit
 import ObjectiveC.runtime
 
@@ -15,8 +16,8 @@ struct SleepTimerCaptureGroup: HookGroup {}
     var isPaused: Bool { get }
 }
 
-final class SleepTimer {
-    private init() {}
+final class SleepTimer: NSObject {
+    override private init() { super.init() }
 
     static let changedNotification = Notification.Name("EvilSleepTimerChanged")
     static weak var playback: NSObject?
@@ -115,7 +116,9 @@ class SleepTimerPlaybackHook: ClassHook<NSObject> {
 
 // MARK: - Keep Screen On
 
-enum KeepScreenAwake {
+// An objc Hallo object so NotificationCenter can deliver @objc selector
+// callbacks into an otherwise-Swift singleton.
+final class KeepScreenAwake: NSObject {
     static let changedNotification = Notification.Name("EvilKeepScreenAwakeChanged")
     private static var observersInstalled = false
 
@@ -137,7 +140,7 @@ enum KeepScreenAwake {
         NotificationCenter.default.post(name: changedNotification, object: nil)
     }
 
-    static private func apply() {
+    static fileprivate func apply() {
         DispatchQueue.main.async {
             UIApplication.shared.isIdleTimerDisabled = isEnabled && UIApplication.shared.applicationState != .background
         }

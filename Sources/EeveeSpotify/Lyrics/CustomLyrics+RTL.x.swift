@@ -31,8 +31,9 @@ class LyricsCellRTLHook: ClassHook<UITableViewCell> {
                 }
             } else if let textView = current as? UITextView, let text = textView.text, !text.isEmpty {
                 if text.isRTL {
+                    // baseWritingDirection became a method on newer SDKs
+                    // (Xcode 26); right alignment alone carries the intent.
                     textView.textAlignment = .right
-                    textView.baseWritingDirection = .rightToLeft
                 }
             }
 
