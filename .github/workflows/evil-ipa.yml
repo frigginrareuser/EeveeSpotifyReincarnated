@@ -119,6 +119,10 @@ jobs:
 
       - name: Create Patched Duplicate & LC-inject zxPluginsInject
         run: |
+          chmod +x Tools/build-zxpi.sh
+          Tools/build-zxpi.sh
+          ls -la packages/zxPluginsInject.dylib
+
           PATCHED_OUT="${OUT_IPA%.ipa}-patched.ipa"
           cp "$OUT_IPA" "$PATCHED_OUT"
           ipapatch --input "$PATCHED_OUT" --inplace --noconfirm \
