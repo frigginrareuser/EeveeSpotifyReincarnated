@@ -85,7 +85,7 @@ clean_share_links_description = "清除网址追踪码";
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "看来您有一个真实有效的 Premium 订阅，因此此插件不会修补数据或限制 Premium 服务器端功能的使用。可以在 EeveeSpotify 设置中管理此操作。";
+have_premium_popup = "看来您有一个真实有效的 Premium 订阅，因此此插件不会修补数据或限制 Premium 服务器端功能的使用。可以在 Evil Spotify 设置中管理此操作。";
 
 high_audio_quality_popup = "非常高的音频质量是服务器端的，并且无法通过此插件获得。";
 playlist_downloading_popup = "原生播放列表下载是服务器端的，无法通过此插件下载。不过可以下载播客节目。";
@@ -135,7 +135,7 @@ ad_free_music_listening = "无广告聆听音乐";
 play_songs_in_any_order = "以任意顺序播放歌曲";
 organize_listening_queue = "整理播放队列";
 
-payment_notice = "EeveeSpotify 已应用补丁来解锁部分高级功能，免费使用。";
+payment_notice = "Evil Spotify 已应用补丁来解锁部分高级功能，免费使用。";
 
 true_shuffle = "真实随机播放";
 true_shuffle_dec = "阻止 Spotify 免费版的智能随机播放将推荐曲目混入你的队列。随机播放只会在播放列表内进行。";
@@ -286,7 +286,7 @@ categoriesTitle = "分类";
 categoriesSectionTitle1 = "按分类设置操作";
 categoriesSectionDeps1 = "关闭 = 忽略。显示 = 仅在进度条上标记。手动 = 跳过前询问。自动 = 静默跳过。";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "支持本项目";
 support_the_project_description = "你的支持让这个 tweak 持续更新，也帮 Hysan 给 Elsa 买一份勇气的药剂。";
 
@@ -510,7 +510,7 @@ episode_header = "第 %@ 集";
 home_gradient_style = "样式";
 home_gradient_style_gradient = "渐变";
 home_gradient_style_solid = "纯色";
-spicylyrics_description = "SpicyLyrics 提供逐字卡拉 OK 歌词。默认使用内置密钥。如果想使用自己的密钥，请前往 Spicy ESR template，然后点击“Sign in”按钮。登录后，同意 Spicy 的 ToS 并点击“Add ESR to my account”。添加完成后，复制生成的密钥，粘贴到 Eevee 歌词部分，然后回到 Spicy 并点击“I have stored it”。接着前往应用页面。";
+spicylyrics_description = "SpicyLyrics 提供逐字卡拉 OK 歌词。默认使用内置密钥。如果想使用自己的密钥，请前往 Spicy ESR template，然后点击“Sign in”按钮。登录后，同意 Spicy 的 ToS 并点击“Add ESR to my account”。添加完成后，复制生成的密钥，粘贴到 Evil Spotify 歌词部分，然后回到 Spicy 并点击“I have stored it”。接着前往应用页面。";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "自定义歌词视图";
 debug_logging = "调试日志";
@@ -524,3 +524,38 @@ spicylyrics_api_key_placeholder = "输入 Spicy 客户端密钥";
 glass_lyrics_view = "自定义歌词视图";
 lyrics_source_restart_popup = "请重启 Spotify，以便在所有位置使用新的歌词来源。在此之前，已播放过的歌曲会保留旧歌词。";
 restart_later = "稍后";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

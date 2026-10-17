@@ -45,6 +45,17 @@ struct AppearanceSettingsView: View {
             }
 
             Section(header: Text("theme".localized), footer: Text("theme_footer".localized)) {
+                Button {
+                    amoled = true
+                    accent = 0xFF1A1A
+                } label: {
+                    SettingsLabel(
+                        title: "evil_mode".localized,
+                        subtitle: (amoled && accent == 0xFF1A1A) ? "evil_mode_active".localized : "evil_mode_subtitle".localized,
+                        icon: "flame.fill",
+                        color: Color(hex: "#FF1A1A")
+                    )
+                }
                 SettingsToggle(title: "amoled".localized, icon: "moon.fill", color: Color(hex: "#3A3A3C"), isOn: $amoled)
                 accentRow
                 SettingsToggle(title: "rounded_artwork".localized, icon: "square.on.square", color: .orange, isOn: $roundedArtwork)

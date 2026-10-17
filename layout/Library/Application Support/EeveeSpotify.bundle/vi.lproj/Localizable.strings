@@ -23,7 +23,7 @@ restart_is_required_description = "Cần phải khởi động lại ứng dụn
 // Patching
 
 do_not_patch_premium = "Không vá Premium";
-patching_description = "EeveeSpotify chặn các yêu cầu tải dữ liệu người dùng, giải tuần tự hóa và sửa đổi các tham số trong thời gian thực.
+patching_description = "Evil Spotify chặn các yêu cầu tải dữ liệu người dùng, giải tuần tự hóa và sửa đổi các tham số trong thời gian thực.
 
 Nếu bạn đã đăng ký Premium, bạn có thể bật Không vá Premium. Bản vá sẽ không can thiệp vào dữ liệu hoặc hạn chế việc sử dụng các tính năng Premium phía máy chủ (server-sided).
 
@@ -46,7 +46,7 @@ Genius: Cung cấp lời bài hát có chất lượng tốt nhất, hỗ trợ 
 LRCLIB: Dịch vụ mã nguồn mở, cung cấp lời bài hát đồng bộ thời gian. Tuy nhiên, nguồn này thiếu lời cho nhiều bài hát.
 
 Musixmatch: Dịch vụ mà Spotify sử dụng. Cung cấp lời bài hát khớp thời gian cho nhiều bài hát, nhưng bạn sẽ cần token người dùng để sử dụng nguồn này.";
-lyrics_additional_info = "Nếu EeveeSpotify không thể tìm thấy bài hát hoặc xử lý lời bài hát, bạn sẽ thấy thông báo \"Không thể tải lời bài hát cho bài hát này\". Lời bài hát có thể bị sai đối với một số bài hát khi sử dụng Genius do cách bản vá tìm kiếm bài hát. Tôi đã tối ưu để nó hoạt động tốt trong hầu hết các trường hợp.";
+lyrics_additional_info = "Nếu Evil Spotify không thể tìm thấy bài hát hoặc xử lý lời bài hát, bạn sẽ thấy thông báo \"Không thể tải lời bài hát cho bài hát này\". Lời bài hát có thể bị sai đối với một số bài hát khi sử dụng Genius do cách bản vá tìm kiếm bài hát. Tôi đã tối ưu để nó hoạt động tốt trong hầu hết các trường hợp.";
 petitlyrics_description = "PetitLyrics: Cung cấp nhiều lời bài hát tiếng Nhật và một số bài hát quốc tế đồng bộ thời gian.";
 
 musixmatch_user_token = "Mã token người dùng Musixmatch";
@@ -94,7 +94,7 @@ livecontainer_sharing_description = "Chia sẻ lên LiveContainer và sao chép 
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Có vẻ như bạn có một đăng ký gói Premium đang hoạt động, vì vậy bản vá sẽ không can thiệp vào dữ liệu hoặc hạn chế việc sử dụng các tính năng Premium phía máy chủ. Bạn có thể quản lý điều này trong phần cài đặt EeveeSpotify.";
+have_premium_popup = "Có vẻ như bạn có một đăng ký gói Premium đang hoạt động, vì vậy bản vá sẽ không can thiệp vào dữ liệu hoặc hạn chế việc sử dụng các tính năng Premium phía máy chủ. Bạn có thể quản lý điều này trong phần cài đặt Evil Spotify.";
 
 high_audio_quality_popup = "Chất lượng âm thanh rất cao do phía máy chủ quản lý và không khả dụng với bản vá này.";
 playlist_downloading_popup = "Tính năng tải xuống danh sách phát gốc do phía máy chủ quản lý và không khả dụng với bản vá này. Tuy nhiên, bạn vẫn có thể tải xuống các tập podcast và danh sách phát cục bộ.";
@@ -143,7 +143,7 @@ ad_free_music_listening = "Nghe nhạc không quảng cáo";
 play_songs_in_any_order = "Phát nhạc theo thứ tự bất kỳ";
 organize_listening_queue = "Sắp xếp danh sách chờ nghe";
 
-payment_notice = "EeveeSpotify áp dụng các bản vá để mở khóa một số tính năng Premium. Nó hoàn toàn miễn phí.";
+payment_notice = "Evil Spotify áp dụng các bản vá để mở khóa một số tính năng Premium. Nó hoàn toàn miễn phí.";
 
 // Debug
 
@@ -287,7 +287,7 @@ categoriesTitle = "Các danh mục";
 categoriesSectionTitle1 = "Hành động theo từng danh mục";
 categoriesSectionDeps1 = "Tắt = bỏ qua. Hiển thị = chỉ vẽ trên thanh tiến trình. Thủ công = nhắc trước khi bỏ qua. Tự động = bỏ qua trong im lặng.";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "Hỗ trợ dự án";
 support_the_project_description = "Đóng góp của bạn giúp tweak này được cập nhật và giúp Hysan mua một lọ thuốc dũng cảm cho Elsa.";
 
@@ -511,7 +511,7 @@ episode_header = "Tập %@";
 home_gradient_style = "Kiểu";
 home_gradient_style_gradient = "Chuyển màu";
 home_gradient_style_solid = "Đơn sắc";
-spicylyrics_description = "SpicyLyrics cung cấp lời karaoke từng từ. Mặc định sử dụng khóa tích hợp. Nếu muốn dùng khóa riêng, hãy vào Spicy ESR template rồi nhấn nút \"Sign in\". Sau khi đăng nhập, đồng ý với ToS của Spicy và nhấn \"Add ESR to my account\". Sau khi được thêm, sao chép khóa đã tạo, dán vào phần lời bài hát của Eevee, rồi quay lại Spicy và nhấp \"I have stored it\". Sau đó vào trang ứng dụng.";
+spicylyrics_description = "SpicyLyrics cung cấp lời karaoke từng từ. Mặc định sử dụng khóa tích hợp. Nếu muốn dùng khóa riêng, hãy vào Spicy ESR template rồi nhấn nút \"Sign in\". Sau khi đăng nhập, đồng ý với ToS của Spicy và nhấn \"Add ESR to my account\". Sau khi được thêm, sao chép khóa đã tạo, dán vào phần lời bài hát của Evil Spotify, rồi quay lại Spicy và nhấp \"I have stored it\". Sau đó vào trang ứng dụng.";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "Chế độ xem lời bài hát tùy chỉnh";
 debug_logging = "Ghi nhật ký gỡ lỗi";
@@ -530,3 +530,38 @@ spicylyrics_api_key_placeholder = "Nhập khóa client Spicy";
 glass_lyrics_view = "Chế độ xem lời bài hát tùy chỉnh";
 lyrics_source_restart_popup = "Khởi động lại Spotify để nguồn lời bài hát mới được dùng ở mọi nơi. Các bài đã phát trước đó sẽ giữ lời cũ cho đến khi đó.";
 restart_later = "Để sau";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

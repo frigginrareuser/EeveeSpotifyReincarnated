@@ -45,12 +45,12 @@ private func isUpsellText(_ text: String?) -> Bool {
     return upsellKeywords.contains { lower.contains($0) }
 }
 
-// PopUpHelper uses this title for Eevee's own status/error dialogs, including
+// PopUpHelper uses this title for the tweak's own status/error dialogs, including
 // the intentional server-sided download reminder. Those are never Spotify
 // Premium upsells and must remain visible even if their localized body happens
 // to contain one of the generic keywords above.
 private func isEeveePopupTitle(_ title: String?) -> Bool {
-    title == "EeveeSpotify"
+    title == "Evil Spotify"
 }
 
 private func markAsUpsell(_ object: AnyObject) {

@@ -20,7 +20,7 @@ restart_is_required_description = "A módosítás után az alkalmazás újraind�
 // Patching
 
 do_not_patch_premium = "Ne javítsd a Prémiumot";
-patching_description = "Az EeveeSpotify fogadja a felhasználói adatok betöltésére irányuló kéréseket, deserializálja azokat, és valós időben módosítja a paramétereket.
+patching_description = "Az Evil Spotify fogadja a felhasználói adatok betöltésére irányuló kéréseket, deserializálja azokat, és valós időben módosítja a paramétereket.
 
 Ha aktív Prémium előfizetéssel rendelkezik, bekapcsolhatja a Ne javítsd a Prémiumot funkciót. A tweak nem állítja át az adatokat, és nem korlátozza a Premium szerveroldali funkciók használatát.
 
@@ -40,7 +40,7 @@ Genius: A legjobb minőségű dalszövegeket kínálja, a legtöbb dalt tartalma
 LRCLIB: A legnyitottabb szolgáltatás, amely időszinkronizált dalszövegeket kínál. Sok dalhoz azonban nincs dalszöveg.
 
 Musixmatch: A Spotify által használt szolgáltatás. Sok dalhoz kínál időszinkronizált dalszövegeket, de ennek a forrásnak a használatához felhasználói tokenre van szükség.";
-lyrics_additional_info = "Ha az EeveeSpotify nem talál egy dalt vagy nem tudja feldolgozni a dalszövegeket, akkor a \„Nem sikerült betölteni a dalszövegeket\” üzenet jelenik meg. A Genius használatakor előfordulhat, hogy a dalszövegek nem megfelelőek egyes dalok esetében, mivel a tweak a dalok keresése miatt nem találja meg a dalszövegeket. A legtöbb esetben sikerült megoldanom.";
+lyrics_additional_info = "Ha az Evil Spotify nem talál egy dalt vagy nem tudja feldolgozni a dalszövegeket, akkor a \„Nem sikerült betölteni a dalszövegeket\” üzenet jelenik meg. A Genius használatakor előfordulhat, hogy a dalszövegek nem megfelelőek egyes dalok esetében, mivel a tweak a dalok keresése miatt nem találja meg a dalszövegeket. A legtöbb esetben sikerült megoldanom.";
 petitlyrics_description = "PetitLyrics: Rengeteg időszinkronizált japán és néhány nemzetközi dalszöveget kínál.";
 
 musixmatch_user_token = "Musixmatch felhasználói token";
@@ -77,7 +77,7 @@ dark_popups = "Sötét PopUps";
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Úgy tűnik, hogy aktív Prémium előfizetésed van, így a tweak nem javítja az adatokat, és nem korlátozza a Prémium szerveroldali funkciók használatát. Ezt az EeveeSpotify beállításaiban tudod kezelni.";
+have_premium_popup = "Úgy tűnik, hogy aktív Prémium előfizetésed van, így a tweak nem javítja az adatokat, és nem korlátozza a Prémium szerveroldali funkciók használatát. Ezt az Evil Spotify beállításaiban tudod kezelni.";
 
 high_audio_quality_popup = "A nagyon magas hangminőség szerveroldali funkció, és ezzel a tweakkel nem érhető el.";
 playlist_downloading_popup = "A natív lejátszási lista letöltése szerveroldali funkció, és ezzel a tweakkel nem érhető el. Podcast epizódok és helyi lejátszási listák azonban letölthetők.";
@@ -114,7 +114,7 @@ contributors = "Hozzájárulók";
 request_anonymous_token = "Névtelen token kérése";
 request_anonymous_token_description = "Érintse meg a „Névtelen token kérése” lehetőséget, ha engedély nélkül szeretne tokent kérni a Musixmatch-től.";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "Támogasd a projektet";
 support_the_project_description = "A hozzájárulásaid frissen tartják ezt a tweaket, és segítenek Hysannak bátorságitalt vásárolni Elzáért.";
 
@@ -338,7 +338,7 @@ episode_header = "%@. epizód";
 home_gradient_style = "Stílus";
 home_gradient_style_gradient = "Színátmenet";
 home_gradient_style_solid = "Egyszínű";
-spicylyrics_description = "A SpicyLyrics szavankénti karaoke dalszöveget biztosít. Alapértelmezetten egy beépített kulcsot használ. Ha saját kulcsot szeretnél használni, nyisd meg a Spicy ESR template oldalt, majd nyomd meg a „Sign in” gombot. A bejelentkezés után fogadd el a Spicy ToS-át, és nyomd meg az „Add ESR to my account” gombot. Miután hozzáadtad, másold ki a létrehozott kulcsot, illeszd be az Eevee dalszöveg szekciójába, majd térj vissza a Spicyhoz, és kattints az „I have stored it” gombra. Ezután menj az alkalmazások oldalára.";
+spicylyrics_description = "A SpicyLyrics szavankénti karaoke dalszöveget biztosít. Alapértelmezetten egy beépített kulcsot használ. Ha saját kulcsot szeretnél használni, nyisd meg a Spicy ESR template oldalt, majd nyomd meg a „Sign in” gombot. A bejelentkezés után fogadd el a Spicy ToS-át, és nyomd meg az „Add ESR to my account” gombot. Miután hozzáadtad, másold ki a létrehozott kulcsot, illeszd be az Evil Spotify dalszöveg szekciójába, majd térj vissza a Spicyhoz, és kattints az „I have stored it” gombra. Ezután menj az alkalmazások oldalára.";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "Egyéni dalszövegnézet";
 no_debug_log_found = "Nem található hibakeresési napló. A napló rögzítése akkor kezdődik, amikor a hibakeresési naplózás be van kapcsolva.";
@@ -373,7 +373,7 @@ lrclib_api = "Server Address";
 ad_free_music_listening = "Ad-free music listening";
 play_songs_in_any_order = "Play songs in any order";
 organize_listening_queue = "Organize listening queue";
-payment_notice = "EeveeSpotify applies patches to unlock certain Premium features. It's free.";
+payment_notice = "Evil Spotify applies patches to unlock certain Premium features. It's free.";
 debug_title = "Debug";
 export_debug_log = "Export Debug Log";
 clear_debug_log = "Clear Debug Log";
@@ -488,3 +488,38 @@ categoriesSectionDeps1 = "Off = ignore. Show = draw on the bar only. Manual = pr
 spicylyrics_api_key_placeholder = "Enter the Spicy client key";
 lyrics_source_restart_popup = "Restart Spotify so the new lyrics source is used everywhere. Songs you already played keep their old lyrics until then.";
 restart_later = "Later";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

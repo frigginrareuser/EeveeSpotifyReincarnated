@@ -19,7 +19,7 @@ restart_is_required_description = "Bu dəyişikliyin qüvvəyə minməsi üçün
 /* MARK: Patching */
 
 do_not_patch_premium = "Premium üçün yamaq tətbiq etmə";
-patching_description = "EeveeSpotify istifadəçi məlumatlarını saxlayır, onları de-serializasiya edir və real vaxtda parametrləri dəyişir.\n\nƏgər aktiv Premium abunəliyiniz varsa, bu seçim aktiv olduqda Premium parametrlərinə dəyişiklik edilməyəcək və beləliklə heç bir funksiya pozulmayacaq.\n\n%@";
+patching_description = "Evil Spotify istifadəçi məlumatlarını saxlayır, onları de-serializasiya edir və real vaxtda parametrləri dəyişir.\n\nƏgər aktiv Premium abunəliyiniz varsa, bu seçim aktiv olduqda Premium parametrlərinə dəyişiklik edilməyəcək və beləliklə heç bir funksiya pozulmayacaq.\n\n%@";
 
 overwrite_configuration = "Konfiqurasiyanı dəyiş";
 overwrite_configuration_description = "Uzaqdan alınmış konfiqurasiyanı Premium konfiqurasiya ilə əvəz edir. Bu parametrlər əsasən interfeys və istifadəçi təcrübəsi ilə bağlıdır və istifadə üçün faydalı olsa da, bəzi problemlərə yol aça bilər.";
@@ -29,7 +29,7 @@ overwrite_configuration_description = "Uzaqdan alınmış konfiqurasiyanı Premi
 do_not_replace_lyrics = "Mahnı sözlərini dəyişmə";
 lyrics_source = "Mahnı sözü mənbəyi";
 lyrics_source_description = "İstədiyiniz mənbəni seçin:\n\nGenius: Ən yüksək keyfiyyətli mahnı sözlərini təqdim edir, sürətli yenilənir, lakin heç vaxt zamanla sinxronlaşdırılmış mahnı sözləri təqdim etmir və etməyəcək.\n\nLRCLIB: Tamamilə açıqdır, zamanla sinxronlaşdırılmış mahnı sözləri təqdim edir, lakin bəzi mahnılarda ümumiyyətlə mahnı sözləri yoxdur.\n\nMusixmatch: Spotify-ın istifadə etdiyi xidmət. Çox sayda mahnı üçün zamanla sinxronlaşdırılmış mahnı sözləri təqdim edir, lakin istifadəçi tokeni tələb edir.";
-lyrics_additional_info = "Əgər EeveeSpotify mahnını tapmasa və ya mahnı sözlərini işləyə bilməsə, 'Bu mahnıya mahnı sözləri tapılmadı' mesajı görünəcək. Genius istifadə edilərkən bəzi uyğunluq səhvləri ola bilər, çünki sistem öz axtarış metodundan istifadə edir — əksər hallarda düzgün işləyir.";
+lyrics_additional_info = "Əgər Evil Spotify mahnını tapmasa və ya mahnı sözlərini işləyə bilməsə, 'Bu mahnıya mahnı sözləri tapılmadı' mesajı görünəcək. Genius istifadə edilərkən bəzi uyğunluq səhvləri ola bilər, çünki sistem öz axtarış metodundan istifadə edir — əksər hallarda düzgün işləyir.";
 petitlyrics_description = "PetitLyrics: Yapon dilində və bəzi beynəlxalq mahnılar üçün zamanla sinxronlaşdırılmış mahnı sözləri təqdim edir.";
 
 musixmatch_user_token = "Musixmatch istifadəçi tokeni";
@@ -64,7 +64,7 @@ dark_popups = "Tünd pop-uplar";
 
 /* MARK: Premium Popups */
 
-have_premium_popup = "Sizdə aktiv Premium abunəlik aşkarlandı, buna görə dəyişikliklər tətbiq olunmayacaq və Premium funksiyalar pozulmayacaq. Bu davranışı EeveeSpotify ayarlarından dəyişə bilərsiniz.";
+have_premium_popup = "Sizdə aktiv Premium abunəlik aşkarlandı, buna görə dəyişikliklər tətbiq olunmayacaq və Premium funksiyalar pozulmayacaq. Bu davranışı Evil Spotify ayarlarından dəyişə bilərsiniz.";
 
 high_audio_quality_popup = "Çox yüksək səs keyfiyyəti server tərəfində idarə olunur və bu yamaqla dəstəklənmir.";
 playlist_downloading_popup = "Orijinal pleylist yükləmələri server tərəfindən idarə olunur və bu yamaqla işləməyəcək. Lakin podkast epizodları və yerli pleylistləri yükləmək mümkündür.";
@@ -103,7 +103,7 @@ request_anonymous_token_description = "Musixmatch-dan anonim token almaq üçün
 
 lrclib_api = "Server ünvanı";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "Layihəni dəstəkləyin";
 support_the_project_description = "Kontribusiyalarınız bu tweak-in yenilənməsini saxlayır və Hysan-ə Elsa üçün cürət dərmanı almağa kömək edir.";
 
@@ -327,7 +327,7 @@ episode_header = "Bölüm %@";
 home_gradient_style = "Üslub";
 home_gradient_style_gradient = "Qradiyent";
 home_gradient_style_solid = "Düz rəng";
-spicylyrics_description = "SpicyLyrics söz-söz karaoke sözləri təqdim edir. Susmaya görə daxili açar istifadə olunur. Öz açarınızdan istifadə etmək istəyirsinizsə, Spicy ESR template səhifəsinə keçin və \"Sign in\" düyməsinə basın. Daxil olduqdan sonra Spicy-nin ToS şərtləri ilə razılaşın və \"Add ESR to my account\" düyməsinə basın. Əlavə olunduqdan sonra yaradılmış açarı kopyalayın, Eevee söz bölməsinə yapışdırın, sonra Spicy-yə qayıdın və \"I have stored it\" düyməsinə klikləyin. Daha sonra tətbiqlər səhifəsinə keçin.";
+spicylyrics_description = "SpicyLyrics söz-söz karaoke sözləri təqdim edir. Susmaya görə daxili açar istifadə olunur. Öz açarınızdan istifadə etmək istəyirsinizsə, Spicy ESR template səhifəsinə keçin və \"Sign in\" düyməsinə basın. Daxil olduqdan sonra Spicy-nin ToS şərtləri ilə razılaşın və \"Add ESR to my account\" düyməsinə basın. Əlavə olunduqdan sonra yaradılmış açarı kopyalayın, Evil Spotify söz bölməsinə yapışdırın, sonra Spicy-yə qayıdın və \"I have stored it\" düyməsinə klikləyin. Daha sonra tətbiqlər səhifəsinə keçin.";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "Fərdi söz görünüşü";
 no_debug_log_found = "Sazlama jurnalı tapılmadı. Jurnal sazlama jurnalı seçimi aktiv edildikdə qeydə başlayır.";
@@ -361,7 +361,7 @@ developer_note = "Developer's Note";
 ad_free_music_listening = "Ad-free music listening";
 play_songs_in_any_order = "Play songs in any order";
 organize_listening_queue = "Organize listening queue";
-payment_notice = "EeveeSpotify applies patches to unlock certain Premium features. It's free.";
+payment_notice = "Evil Spotify applies patches to unlock certain Premium features. It's free.";
 debug_title = "Debug";
 export_debug_log = "Export Debug Log";
 clear_debug_log = "Clear Debug Log";
@@ -476,3 +476,38 @@ categoriesSectionDeps1 = "Off = ignore. Show = draw on the bar only. Manual = pr
 spicylyrics_api_key_placeholder = "Enter the Spicy client key";
 lyrics_source_restart_popup = "Restart Spotify so the new lyrics source is used everywhere. Songs you already played keep their old lyrics until then.";
 restart_later = "Later";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

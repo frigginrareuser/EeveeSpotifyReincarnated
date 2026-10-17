@@ -23,7 +23,7 @@ restart_is_required_description = "Değişikliklerin etkili olması için uygula
 // Patching
 
 do_not_patch_premium = "Premium'u Yamama";
-patching_description = "EeveeSpotify, kullanıcı verilerini yükleme isteklerini yakalar, ayrıştırır ve parametreleri gerçek zamanlı olarak değiştirir.
+patching_description = "Evil Spotify, kullanıcı verilerini yükleme isteklerini yakalar, ayrıştırır ve parametreleri gerçek zamanlı olarak değiştirir.
 
 Aktif bir Premium aboneliğiniz varsa \"Premium'u Yamama\" seçeneğini açabilirsiniz. Tweak verileri yamamaz ve sunucu taraflı Premium özelliklerinin kullanımını kısıtlamaz.
 
@@ -46,8 +46,8 @@ Genius: En kaliteli şarkı sözlerini sunar, en fazla şarkıyı barındırır 
 LRCLIB: Zaman senkronizeli şarkı sözleri sunan en açık servistir. Ancak birçok şarkı için sözleri eksiktir.
 
 Musixmatch: Spotify'ın kullandığı servistir. Birçok şarkı için zaman senkronizeli sözler sağlar, ancak bu kaynağı kullanmak için bir kullanıcı jetonuna ihtiyacınız vardır.";
-lyrics_additional_info = "EeveeSpotify bir şarkıyı bulamazsa veya sözleri işleyemezse \"Bu şarkı için şarkı sözleri yüklenemedi\" mesajını görürsünüz. Genius kullanılırken tweak'in şarkı arama yöntemi nedeniyle bazı şarkıların sözleri yanlış olabilir. Çoğu durumda çalışacak şekilde ayarlanmıştır.";
-spicylyrics_description = "SpicyLyrics kelime kelime karaoke şarkı sözleri sunar. Varsayılan olarak yerleşik bir anahtar kullanılır. Kendi anahtarınızı kullanmak isterseniz Spicy ESR şablonu sayfasına gidin ve \"Sign in\" düğmesine basın. Giriş yaptıktan sonra Spicy'nin Hizmet Şartları'nı kabul edin ve \"Add ESR to my account\" düğmesine basın. Eklendikten sonra oluşturulan anahtarı kopyalayın, Eevee şarkı sözleri bölümüne yapıştırın, sonra Spicy'ye dönüp \"I have stored it\" düğmesine tıklayın. Ardından uygulamalar sayfasına gidin.";
+lyrics_additional_info = "Evil Spotify bir şarkıyı bulamazsa veya sözleri işleyemezse \"Bu şarkı için şarkı sözleri yüklenemedi\" mesajını görürsünüz. Genius kullanılırken tweak'in şarkı arama yöntemi nedeniyle bazı şarkıların sözleri yanlış olabilir. Çoğu durumda çalışacak şekilde ayarlanmıştır.";
+spicylyrics_description = "SpicyLyrics kelime kelime karaoke şarkı sözleri sunar. Varsayılan olarak yerleşik bir anahtar kullanılır. Kendi anahtarınızı kullanmak isterseniz Spicy ESR şablonu sayfasına gidin ve \"Sign in\" düğmesine basın. Giriş yaptıktan sonra Spicy'nin Hizmet Şartları'nı kabul edin ve \"Add ESR to my account\" düğmesine basın. Eklendikten sonra oluşturulan anahtarı kopyalayın, Evil Spotify şarkı sözleri bölümüne yapıştırın, sonra Spicy'ye dönüp \"I have stored it\" düğmesine tıklayın. Ardından uygulamalar sayfasına gidin.";
 petitlyrics_description = "PetitLyrics: Bol miktarda zaman senkronizeli Japonca ve bazı uluslararası şarkı sözleri sunar.";
 
 musixmatch_user_token = "Musixmatch Kullanıcı Jetonu";
@@ -105,7 +105,7 @@ clean_share_links_description = "Paylaşılan bağlantılardan takip parametrele
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Aktif bir Premium aboneliğiniz var gibi görünüyor, bu nedenle tweak verileri yamamayacak veya sunucu taraflı Premium özelliklerinin kullanımını kısıtlamayacaktır. Bunu EeveeSpotify ayarlarından yönetebilirsiniz.";
+have_premium_popup = "Aktif bir Premium aboneliğiniz var gibi görünüyor, bu nedenle tweak verileri yamamayacak veya sunucu taraflı Premium özelliklerinin kullanımını kısıtlamayacaktır. Bunu Evil Spotify ayarlarından yönetebilirsiniz.";
 
 high_audio_quality_popup = "Çok yüksek ses kalitesi sunucu taraflıdır ve bu tweak ile kullanılamaz.";
 playlist_downloading_popup = "Çalma listesi indirme sunucu taraflıdır ve bu tweak ile kullanılamaz. Ancak podcast bölümlerini ve yerel çalma listelerini indirebilirsiniz.";
@@ -158,7 +158,7 @@ ad_free_music_listening = "Reklamsız müzik dinleme";
 play_songs_in_any_order = "Şarkıları istediğin sırayla çal";
 organize_listening_queue = "Dinleme sırasını düzenle";
 
-payment_notice = "EeveeSpotify, bazı Premium özelliklerin kilidini açmak için yamalar uygular. Ücretsizdir.";
+payment_notice = "Evil Spotify, bazı Premium özelliklerin kilidini açmak için yamalar uygular. Ücretsizdir.";
 
 // Debug
 
@@ -533,3 +533,38 @@ karaoke_blur_intensity = "Bulanıklık yoğunluğu";
 glass_lyrics_view = "Cam şarkı sözleri görünümü";
 lyrics_source_restart_popup = "Yeni şarkı sözü kaynağının her yerde kullanılması için Spotify'ı yeniden başlatın. Daha önce çaldığınız şarkılar o zamana kadar eski sözlerini korur.";
 restart_later = "Sonra";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

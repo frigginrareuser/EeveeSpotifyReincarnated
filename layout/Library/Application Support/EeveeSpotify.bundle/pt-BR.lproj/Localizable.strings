@@ -72,7 +72,7 @@ dark_popups = "Pop-Ups escuros";
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Parece que você possui uma assinatura Premium ativa, então o ajuste não corrigirá os dados e nem restringirá o uso de recursos Premium do lado do servidor. Você pode gerenciar isso nas configurações do EeveeSpotify.";
+have_premium_popup = "Parece que você possui uma assinatura Premium ativa, então o ajuste não corrigirá os dados e nem restringirá o uso de recursos Premium do lado do servidor. Você pode gerenciar isso nas configurações do Evil Spotify.";
 
 high_audio_quality_popup = "A qualidade de áudio muito alta é do lado do servidor e não está disponível com este ajuste.";
 playlist_downloading_popup = "O download da lista de reprodução nativa é do lado do servidor e não está disponível com este ajuste. Você pode baixar episódios de podcast.";
@@ -99,7 +99,7 @@ unknown_error = "Erro desconhecido";
 song_is_instrumental = "Esse som é instrumental.";
 let_the_music_play = "Deixe a música tocar...";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "Apoie o projeto";
 support_the_project_description = "Suas contribuições mantêm este mod atualizado e ajudam o Hysan a comprar uma poção de coragem para a Elsa.";
 
@@ -323,7 +323,7 @@ episode_header = "Episódio %@";
 home_gradient_style = "Estilo";
 home_gradient_style_gradient = "Gradiente";
 home_gradient_style_solid = "Sólido";
-spicylyrics_description = "O SpicyLyrics oferece letras de karaokê palavra por palavra. Por padrão, uma chave integrada é usada. Se quiser usar a sua própria chave, vá em Spicy ESR template e toque em \"Sign in\". Depois de entrar, aceite os ToS do Spicy e toque em \"Add ESR to my account\". Depois de adicionado, copie a chave gerada, cole na seção de letras do Eevee, volte ao Spicy e clique em \"I have stored it\". Depois vá para a página de apps.";
+spicylyrics_description = "O SpicyLyrics oferece letras de karaokê palavra por palavra. Por padrão, uma chave integrada é usada. Se quiser usar a sua própria chave, vá em Spicy ESR template e toque em \"Sign in\". Depois de entrar, aceite os ToS do Spicy e toque em \"Add ESR to my account\". Depois de adicionado, copie a chave gerada, cole na seção de letras do Evil Spotify, volte ao Spicy e clique em \"I have stored it\". Depois vá para a página de apps.";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "Visualização de letra personalizada";
 no_debug_log_found = "Nenhum log de depuração encontrado. O log começa a ser gravado quando a opção de registro de depuração está ativada.";
@@ -365,7 +365,7 @@ lrclib_api = "Server Address";
 ad_free_music_listening = "Ad-free music listening";
 play_songs_in_any_order = "Play songs in any order";
 organize_listening_queue = "Organize listening queue";
-payment_notice = "EeveeSpotify applies patches to unlock certain Premium features. It's free.";
+payment_notice = "Evil Spotify applies patches to unlock certain Premium features. It's free.";
 debug_title = "Debug";
 export_debug_log = "Export Debug Log";
 clear_debug_log = "Clear Debug Log";
@@ -480,3 +480,38 @@ categoriesSectionDeps1 = "Off = ignore. Show = draw on the bar only. Manual = pr
 spicylyrics_api_key_placeholder = "Enter the Spicy client key";
 lyrics_source_restart_popup = "Restart Spotify so the new lyrics source is used everywhere. Songs you already played keep their old lyrics until then.";
 restart_later = "Later";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

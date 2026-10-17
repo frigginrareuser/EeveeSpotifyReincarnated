@@ -1,14 +1,38 @@
 ![Banner](Images/banner.png?)
 
-# EeveeSpotifyReincarnated
+# Evil Spotify
+
+> A meme client: Spotify with Premium unlocked, dressed for the dark side — red-on-black icon, evil greetings, evil share signatures, and everything the Everett edition already had.
 
 **Maintainers:** [jaydenjcpy](https://github.com/jaydenjcpy) & [faroukbmiled](https://github.com/faroukbmiled) & [Mod4](https://github.com/M0d-4) <br />
-**Last Update:** `10/5/26` **Spotify Version:** `9.1.88`
+**Last Update:** `10/16/26` **Spotify Version:** `9.1.90` (tested back to `9.1.88`)
+
+<div align="center">
+
+Everett is the community edition of the Eevee lineage — same engine, more finely tuned.
+
+</div>
 
 This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.
 
 > [!NOTE]
 > The original EeveeSpotify repository was disabled due to a [DMCA takedown](https://github.com/github/dmca/blob/master/2025/08/2025-08-14-spotify.md). This repository will not contain IPA packages in the repo itself.
+
+## What makes it Evil
+
+- **Evil Spotify icon** — the red-on-black mark ships as a selectable alternate icon (Settings > Looks > App icon); pick "Evil Spotify" to apply it.
+- **Named Evil Spotify** — the built IPA's app name is renamed by `Tools/evil-rename.sh` during the GitHub Actions build.
+- **Evil plan branding** — the premium plan screen and badges read "Evil Spotify" in evil red (`#FF1A1A`).
+- **Evil Mode** — one-tap theme preset in Settings > Looks > Appearance: evil red accent + pitch-black AMOLED surfaces.
+- **Evil greetings** — random evil messages when the app launches (toggle in Settings > Advanced > Miscellaneous).
+- **Evil share signature** — shares of Spotify links get a cursed signature line (toggle in Miscellaneous).
+
+## Playback Tools (new in the Everett edition)
+
+- **Sleep Timer** — pick a countdown (5–120 minutes) from Settings > Listening > Playback. Playback pauses automatically when it runs out.
+- **Keep Screen On** — stops iOS auto-lock while Spotify is foregrounded.
+- **Double-tap artwork: Save song** — new double-tap action that saves the current track (in addition to seek/skip).
+- **Hide update prompts** — blocks Spotify's "update available" popups.
 
 ## Custom Lyrics Support
 

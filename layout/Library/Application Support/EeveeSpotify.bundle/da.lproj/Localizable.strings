@@ -21,7 +21,7 @@ restart_is_required_description = "Genstart af appen er nødvendig efter ændrin
 // Patching
 
 do_not_patch_premium = "Patch ikke Premium";
-patching_description = "EeveeSpotify opsnapper anmodninger om at indlæse brugerdata, deserialiserer disse, og modificerer parametrene samtidigt med at de indlæses.
+patching_description = "Evil Spotify opsnapper anmodninger om at indlæse brugerdata, deserialiserer disse, og modificerer parametrene samtidigt med at de indlæses.
 
 Hvis du har et aktivt Premium-abonnement, kan du bruge \"Patch ikke Premium\". Tweaket vil herefter ikke patche data eller begrænse brug af Premium-funktioner der er server-side.
 
@@ -41,7 +41,7 @@ Genius: Tilbyder den højeste kvalitet af sangtekster, har flest sange, og opdat
 LRCLIB: Den mest åbne service, der tilbyder tidssynkroniserede sangtekster. Men, den mangler tekster til mange sange.
 
 Musixmatch: Servicen Spotify bruger. Tilbyder tidssynkroniserede sangtekster for mange sange, men du skal have et User Token for at bruge denne service.";
-lyrics_additional_info = "Hvis EeveeSpotify ikke er i stand til at finde en sang eller indlæse sangtekster vil du se beskeden \"Kunne ikke indlæse sangteksten til denne sang\". Sangtekster kan, for visse sange, være forkerte ved brug af Genius grundet måden dette tweak søger efter sange. Det virker dog i de fleste tilfælde.";
+lyrics_additional_info = "Hvis Evil Spotify ikke er i stand til at finde en sang eller indlæse sangtekster vil du se beskeden \"Kunne ikke indlæse sangteksten til denne sang\". Sangtekster kan, for visse sange, være forkerte ved brug af Genius grundet måden dette tweak søger efter sange. Det virker dog i de fleste tilfælde.";
 petitlyrics_description = "PetitLyrics: Tilbyder mange tidssynkroniserede tekster på Japansk og enkelte internationale tekster.";
 
 musixmatch_user_token = "Musixmatch User Token";
@@ -89,7 +89,7 @@ livecontainer_sharing_description = "Del til LiveContainer eller kopier URL'en h
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Det ser ud til at du har et aktivt Premium-abonnement, derfor patcher eller begrænser dette tweak ikke brugen af Premium-funktioner der er server-side. Dette kan ændres i EeveeSpotifys indstillinger.";
+have_premium_popup = "Det ser ud til at du har et aktivt Premium-abonnement, derfor patcher eller begrænser dette tweak ikke brugen af Premium-funktioner der er server-side. Dette kan ændres i Evil Spotify indstillinger.";
 
 high_audio_quality_popup = "Lydkvaliteten \"Meget høj\" er server-side og er derfor ikke tilgænglig med dette tweak.";
 playlist_downloading_popup = "Den indbyggede download af playlister er server-side og er ikke derfor tilgænglig med dette tweak. Download af podcastepisoder og lokale spillelister er dog muligt.";
@@ -138,9 +138,9 @@ ad_free_music_listening = "Lyt til reklamefri musik";
 play_songs_in_any_order = "Afspil sange i den rækkefølge, du foretrækker";
 organize_listening_queue = "Rediger rækkefølgen på afspilningskøen";
 
-payment_notice = "EeveeSpotify tilføjer patches for at låse op for visse Premium-funktioner. Dette er gratis.";
+payment_notice = "Evil Spotify tilføjer patches for at låse op for visse Premium-funktioner. Dette er gratis.";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "Støt projektet";
 support_the_project_description = "Dine bidrag holder denne tweak opdateret og hjælper med at købe en livsgnist til Hysan til Elsa.";
 
@@ -364,7 +364,7 @@ episode_header = "Afsnit %@";
 home_gradient_style = "Stil";
 home_gradient_style_gradient = "Gradient";
 home_gradient_style_solid = "Ensfarvet";
-spicylyrics_description = "SpicyLyrics leverer karaoketekster ord for ord. Som standard bruges en indbygget nøgle. Vil du bruge din egen nøgle, så gå til Spicy ESR template og tryk på knappen \"Sign in\". Når du er logget ind, skal du acceptere Spicys ToS og trykke på \"Add ESR to my account\". Når den er tilføjet, kopierer du den genererede nøgle, indsætter den i Eevee-tekstsektionen, går tilbage til Spicy og klikker på \"I have stored it\". Gå derefter til siden med apps.";
+spicylyrics_description = "SpicyLyrics leverer karaoketekster ord for ord. Som standard bruges en indbygget nøgle. Vil du bruge din egen nøgle, så gå til Spicy ESR template og tryk på knappen \"Sign in\". Når du er logget ind, skal du acceptere Spicys ToS og trykke på \"Add ESR to my account\". Når den er tilføjet, kopierer du den genererede nøgle, indsætter den i Evil Spotify-tekstsektionen, går tilbage til Spicy og klikker på \"I have stored it\". Gå derefter til siden med apps.";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "Tilpasset tekstvisning";
 no_debug_log_found = "Ingen fejlfindingslog fundet. Loggen begynder at optage, når indstillingen for fejlfindingslogning er slået til.";
@@ -501,3 +501,38 @@ categoriesSectionDeps1 = "Off = ignore. Show = draw on the bar only. Manual = pr
 spicylyrics_api_key_placeholder = "Enter the Spicy client key";
 lyrics_source_restart_popup = "Restart Spotify so the new lyrics source is used everywhere. Songs you already played keep their old lyrics until then.";
 restart_later = "Later";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

@@ -21,7 +21,7 @@ restart_is_required_description = "Change garepachi app restart garnuparchha.";
 // Patching
 
 do_not_patch_premium = "Premium lai patch na garne";
-patching_description = "EeveeSpotify le user data load garna request intercept garcha, deserialize garcha, ra real-time ma parameters modify garcha. 
+patching_description = "Evil Spotify le user data load garna request intercept garcha, deserialize garcha, ra real-time ma parameters modify garcha. 
 
 Yedi tapai sanga active Premium subscription chha vaney cha bhane, 'Do Not Patch Premium' lai on garnuhos. Yo tweak le data patch gardaina ra Premium server-sided features prayog ma baadha gardaina.
 
@@ -41,7 +41,7 @@ Genius: Sabai bhanda ramro lyric source, dherai geet haru ko lyrics dincha, ra s
 LRCLIB: Sabai bhanda khulla service, time-synced lyrics dincha. Tara, dherai geet haru ko lyrics hudaina.
 
 Musixmatch: Yo Service Spotify le use garcha. Dherai geet haru ko time-synced lyrics dincha, tara yo source use garna user token chahinchha.";
-lyrics_additional_info = "Yadi EeveeSpotify le kunai geet khojna nasake ya lyrics process garna nasake, tapai le 'Yo geet ko lyrics load garna sakiyena' vanera message dekhnuhunechha. Genius prayog garda kunai kunai geet haru ko lyrics galat huna sakcha tweak le kasari khojcha bhanne kurama adharit hunale. Maile yo sakesamma kaam garne banayeko chu.";
+lyrics_additional_info = "Yadi Evil Spotify le kunai geet khojna nasake ya lyrics process garna nasake, tapai le 'Yo geet ko lyrics load garna sakiyena' vanera message dekhnuhunechha. Genius prayog garda kunai kunai geet haru ko lyrics galat huna sakcha tweak le kasari khojcha bhanne kurama adharit hunale. Maile yo sakesamma kaam garne banayeko chu.";
 petitlyrics_description = "PetitLyrics: Dherai Japanese ra kehi international geet haru ko time-synced lyrics dincha.";
 
 musixmatch_user_token = "Musixmatch ko User Token";
@@ -89,7 +89,7 @@ livecontainer_sharing_description = "Yedi selected destination supported chhaina
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Tapai sanga Premium subscription chha jasto dekhincha, tesaile tweak le data patch gardaina ra Premium server-sided features ko upayog ma baadha gardaina. Tapai EeveeSpotify ko settings bata manage garnu saknuhunchha.";
+have_premium_popup = "Tapai sanga Premium subscription chha jasto dekhincha, tesaile tweak le data patch gardaina ra Premium server-sided features ko upayog ma baadha gardaina. Tapai Evil Spotify ko settings bata manage garnu saknuhunchha.";
 
 high_audio_quality_popup = "High audio quality server-sided ho ra yo tweak ma available chaina.";
 playlist_downloading_popup = "Native playlist download server-sided ho ra yo tweak ma upalabdha chainaa. Tara tapai podcast episode ra local playlist download garnu saknuhunchha.";
@@ -138,9 +138,9 @@ ad_free_music_listening = "Ad-free geet sunne";
 play_songs_in_any_order = "Geet lai junsukai order ma play garne";
 organize_listening_queue = "Listening queue lai organize garne";
 
-payment_notice = "EeveeSpotify le patches apply garchha certain Premium subidha unlock garna ko lagi. Yo free chha.";
+payment_notice = "Evil Spotify le patches apply garchha certain Premium subidha unlock garna ko lagi. Yo free chha.";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "परियोजनालाई सहयोग गर्नुहोस्";
 support_the_project_description = "तपाईंको योगदानले यो tweak अद्यावधिक राख्छ र Hysan ले Elsa को लागि साहसको पोसन किन्न मद्दत गर्छ।";
 
@@ -364,7 +364,7 @@ episode_header = "एपिसोड %@";
 home_gradient_style = "शैली";
 home_gradient_style_gradient = "ग्रेडिएन्ट";
 home_gradient_style_solid = "ठोस";
-spicylyrics_description = "SpicyLyrics ले शब्द-शब्दमा कराओके लिरिक्स उपलब्ध गराउँछ। पूर्वनिर्धारित रूपमा अन्तर्निर्मित कुञ्जी प्रयोग हुन्छ। आफ्नै कुञ्जी प्रयोग गर्न चाहनुहुन्छ भने Spicy ESR template मा जानुहोस् र \"Sign in\" बटन थिच्नुहोस्। साइन इन गरेपछि Spicy को ToS मा सहमत हुनुहोस् र \"Add ESR to my account\" थिच्नुहोस्। थपिएपछि, बनेको कुञ्जी कपी गर्नुहोस्, Eevee लिरिक्स खण्डमा पेस्ट गर्नुहोस्, त्यसपछि Spicy मा फर्केर \"I have stored it\" मा क्लिक गर्नुहोस्। त्यसपछि एप पृष्ठमा जानुहोस्।";
+spicylyrics_description = "SpicyLyrics ले शब्द-शब्दमा कराओके लिरिक्स उपलब्ध गराउँछ। पूर्वनिर्धारित रूपमा अन्तर्निर्मित कुञ्जी प्रयोग हुन्छ। आफ्नै कुञ्जी प्रयोग गर्न चाहनुहुन्छ भने Spicy ESR template मा जानुहोस् र \"Sign in\" बटन थिच्नुहोस्। साइन इन गरेपछि Spicy को ToS मा सहमत हुनुहोस् र \"Add ESR to my account\" थिच्नुहोस्। थपिएपछि, बनेको कुञ्जी कपी गर्नुहोस्, Evil Spotify लिरिक्स खण्डमा पेस्ट गर्नुहोस्, त्यसपछि Spicy मा फर्केर \"I have stored it\" मा क्लिक गर्नुहोस्। त्यसपछि एप पृष्ठमा जानुहोस्।";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "आफ्नै लिरिक्स दृश्य";
 no_debug_log_found = "डिबग लग फेला परेन। डिबग लगिङ विकल्प सक्षम गरेपछि लग रेकर्ड गर्न थालिन्छ।";
@@ -501,3 +501,38 @@ categoriesSectionDeps1 = "Off = ignore. Show = draw on the bar only. Manual = pr
 spicylyrics_api_key_placeholder = "Enter the Spicy client key";
 lyrics_source_restart_popup = "Restart Spotify so the new lyrics source is used everywhere. Songs you already played keep their old lyrics until then.";
 restart_later = "Later";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

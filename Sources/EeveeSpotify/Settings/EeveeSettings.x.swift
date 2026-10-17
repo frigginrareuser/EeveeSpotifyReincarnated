@@ -24,7 +24,7 @@ class ProfileSettingsSectionHook: ClassHook<NSObject> {
             let eeveeSettingsController = EeveeSettingsViewController(
                 rootSettingsController.view.bounds,
                 settingsView: AnyView(EeveeSettingsView(navigationController: navigationController)),
-                navigationTitle: "EeveeSpotify"
+                navigationTitle: "Evil Spotify"
             )
             
             //
@@ -77,7 +77,7 @@ class ProfileSettingsSectionHook: ClassHook<NSObject> {
             )
             .disclosureAccessoryView()
             
-            tableViewCell.textLabel?.text = "EeveeSpotify"
+            tableViewCell.textLabel?.text = "Evil Spotify"
             return tableViewCell
         }
 

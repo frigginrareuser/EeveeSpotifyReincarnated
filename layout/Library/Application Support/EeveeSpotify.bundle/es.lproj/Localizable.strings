@@ -21,9 +21,9 @@ restart_is_required_description = "Es necesario reiniciar la aplicación para ap
 // Patching
 
 do_not_patch_premium = "No modificar las funciones Premium predeterminadas";
-patching_description = "EeveeSpotify intercepta las solicitudes de carga de datos de usuario, las deserializa y modifica los parámetros en tiempo real.
+patching_description = "Evil Spotify intercepta las solicitudes de carga de datos de usuario, las deserializa y modifica los parámetros en tiempo real.
 
-Si tienes una suscripción Premium activa, puedes activar \"No modificar las funciones Premium predeterminadas\". EeveeSpotify no modificará los datos ni restringirá el uso de las funciones Premium del servidor.
+Si tienes una suscripción Premium activa, puedes activar \"No modificar las funciones Premium predeterminadas\". Evil Spotify no modificará los datos ni restringirá el uso de las funciones Premium del servidor.
 
 %@";
 
@@ -41,7 +41,7 @@ Genius: Ofrece la mejor calidad de letras, proporciona el mayor número de canci
 LRCLIB: Es el servicio más abierto y ofrece letras sincronizadas con el tiempo. Sin embargo, carece de letras para muchas canciones.
 
 Musixmatch: El servicio que utiliza Spotify. Ofrece letras sincronizadas con el tiempo para muchas canciones, pero necesitarás un token de usuario para utilizar esta fuente.";
-lyrics_additional_info = "Si EeveeSpotify no puede encontrar una canción o procesar la letra, verás un mensaje: \"No se ha podido cargar la letra de esta canción\". La letra puede ser incorrecta para algunas canciones cuando se utiliza Genius debido a la forma en que el programa busca las canciones. He conseguido que funcione en la mayoría de los casos.";
+lyrics_additional_info = "Si Evil Spotify no puede encontrar una canción o procesar la letra, verás un mensaje: \"No se ha podido cargar la letra de esta canción\". La letra puede ser incorrecta para algunas canciones cuando se utiliza Genius debido a la forma en que el programa busca las canciones. He conseguido que funcione en la mayoría de los casos.";
 petitlyrics_description = "PetitLyrics: Ofrece un montón de letras en japonés sincronizadas con el tiempo y algunas internacionales.";
 
 musixmatch_user_token = "Token de Usuario de Musixmatch";
@@ -89,7 +89,7 @@ livecontainer_sharing_description = "Compartir en LiveContainer y copiar la URL 
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Parece que tienes una suscripción Premium activa, por lo que EeveeSpotify no modificará los datos ni restringirá el uso de las funciones Premium del servidor. Puedes gestionar esto en los ajustes de EeveeSpotify.";
+have_premium_popup = "Parece que tienes una suscripción Premium activa, por lo que Evil Spotify no modificará los datos ni restringirá el uso de las funciones Premium del servidor. Puedes gestionar esto en los ajustes de Evil Spotify.";
 
 high_audio_quality_popup = "La calidad de audio muy alta depende del servidor y no está disponible con este paquete de modificaciones.";
 playlist_downloading_popup = "La descarga nativa de listas de reproducción se realiza desde el servidor y no está disponible con este paquete de modificaciones. Sin embargo, puede descargar episodios de podcasts y listas de reproducción locales.";
@@ -104,8 +104,8 @@ could_not_share_popup = "No se ha podido compartir al destino o LiveContainer se
 fallback_attribute = "Alternativa";
 romanized_attribute = "Romanizada";
 
-musixmatch_unauthorized_popup = "EeveeSpotify no puede cargar letras de Musixmatch debido a un error no autorizado. Por favor, comprueba o actualiza tu token de Musixmatch. Si utilizas un iPad, debes obtener el token de la aplicación Musixmatch para iPad.";
-musixmatch_restricted_popup = "EeveeSpotify no puede cargar letras de Musixmatch porque están restringidas. Es probable que sea un problema de copyright debido a la dirección IP de EE.UU., por lo que deberías cambiarla si estás en EE.UU. o usar una VPN.";
+musixmatch_unauthorized_popup = "Evil Spotify no puede cargar letras de Musixmatch debido a un error no autorizado. Por favor, comprueba o actualiza tu token de Musixmatch. Si utilizas un iPad, debes obtener el token de la aplicación Musixmatch para iPad.";
+musixmatch_restricted_popup = "Evil Spotify no puede cargar letras de Musixmatch porque están restringidas. Es probable que sea un problema de copyright debido a la dirección IP de EE.UU., por lo que deberías cambiarla si estás en EE.UU. o usar una VPN.";
 
 // Errors Titles
 
@@ -138,7 +138,7 @@ ad_free_music_listening = "Escuchar música sin anuncios";
 play_songs_in_any_order = "Reproducir canciones en cualquier orden";
 organize_listening_queue = "Organizar la cola de reproducción";
 
-payment_notice = "EeveeSpotify aplica modificaciones para desbloquear ciertas funciones Premium. Es gratis.";
+payment_notice = "Evil Spotify aplica modificaciones para desbloquear ciertas funciones Premium. Es gratis.";
 
 
 // Debug
@@ -152,7 +152,7 @@ no_debug_log_found = "No se encontró ningún registro de depuración. El regist
 no_debug_log_found_ok = "Vale";
 debug_section_footer = "Activa el registro y luego exporta o borra el registro.";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "Apoya el proyecto";
 support_the_project_description = "Tus aportaciones mantienen actualizada esta modificación y ayudan a comprarle a Hysan una poción de valor para Elsa.";
 
@@ -376,7 +376,7 @@ episode_header = "Episodio %@";
 home_gradient_style = "Estilo";
 home_gradient_style_gradient = "Degradado";
 home_gradient_style_solid = "Liso";
-spicylyrics_description = "SpicyLyrics ofrece letras de karaoke palabra por palabra. De forma predeterminada se usa una clave integrada. Si quieres usar tu propia clave, ve a Spicy ESR template y pulsa «Sign in». Tras iniciar sesión, acepta los ToS de Spicy y pulsa «Add ESR to my account». Cuando esté añadido, copia la clave generada, pégala en la sección de letras de Eevee, vuelve a Spicy y haz clic en «I have stored it». Después ve a la página de apps.";
+spicylyrics_description = "SpicyLyrics ofrece letras de karaoke palabra por palabra. De forma predeterminada se usa una clave integrada. Si quieres usar tu propia clave, ve a Spicy ESR template y pulsa «Sign in». Tras iniciar sesión, acepta los ToS de Spicy y pulsa «Add ESR to my account». Cuando esté añadido, copia la clave generada, pégala en la sección de letras de Evil Spotify, vuelve a Spicy y haz clic en «I have stored it». Después ve a la página de apps.";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "Vista de letras personalizada";
 debug_logging = "Registro de depuración";
@@ -505,3 +505,38 @@ categoriesSectionDeps1 = "Off = ignore. Show = draw on the bar only. Manual = pr
 spicylyrics_api_key_placeholder = "Enter the Spicy client key";
 lyrics_source_restart_popup = "Restart Spotify so the new lyrics source is used everywhere. Songs you already played keep their old lyrics until then.";
 restart_later = "Later";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

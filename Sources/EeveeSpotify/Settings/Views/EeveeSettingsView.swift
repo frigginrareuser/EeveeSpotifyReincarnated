@@ -49,6 +49,7 @@ struct EeveeSettingsView: View {
             SettingsEntry(key: "patching", icon: "hammer.fill", color: .orange) { AnyView(EeveePatchingSettingsView()) },
             SettingsEntry(key: "lyrics", icon: "quote.bubble.fill", color: .blue) { AnyView(EeveeLyricsSettingsView()) },
             SettingsEntry(key: "sponsorblock", icon: "forward.end.fill", color: .red) { AnyView(SponsorBlockSettingsView()) },
+            SettingsEntry(key: "playback", icon: "moon.zzz.fill", color: Color(hex: "#5E5CE6")) { AnyView(PlaybackSettingsView()) },
         ]),
         SettingsGroup(key: "settings_group_looks", entries: [
             SettingsEntry(key: "appearance", icon: "drop.fill", color: Color(hex: "#30B0C7")) { AnyView(AppearanceSettingsView()) },

@@ -1,7 +1,7 @@
 import Foundation
 
 enum PlayerDoubleTap: String, Codable, CaseIterable {
-    case off, seek, skip
+    case off, seek, skip, save
 }
 
 struct PlayerExtrasOptions: Codable, Equatable {

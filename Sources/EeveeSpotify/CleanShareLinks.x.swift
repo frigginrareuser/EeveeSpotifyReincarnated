@@ -35,29 +35,32 @@ enum CleanShareLinks {
 
     /// Returns a copy of the string with any Spotify share links cleaned.
     static func cleanedString(from string: String) -> String {
-        guard UserDefaults.cleanShareLinks else { return string }
+        var result = string
 
-        let nsString = string as NSString
-        let fullRange = NSRange(location: 0, length: nsString.length)
-        var replacements: [(NSRange, String)] = []
+        if UserDefaults.cleanShareLinks {
+            let nsString = string as NSString
+            let fullRange = NSRange(location: 0, length: nsString.length)
+            var replacements: [(NSRange, String)] = []
 
-        for match in spotifyShareURLRegex.matches(in: string, options: [], range: fullRange) {
-            let urlString = nsString.substring(with: match.range)
-            guard let url = URL(string: urlString) else { continue }
+            for match in spotifyShareURLRegex.matches(in: string, options: [], range: fullRange) {
+                let urlString = nsString.substring(with: match.range)
+                guard let url = URL(string: urlString) else { continue }
 
-            let cleanedURLString = cleanedURL(from: url).absoluteString
-            if cleanedURLString != urlString {
-                replacements.append((match.range, cleanedURLString))
+                let cleanedURLString = cleanedURL(from: url).absoluteString
+                if cleanedURLString != urlString {
+                    replacements.append((match.range, cleanedURLString))
+                }
+            }
+
+            if !replacements.isEmpty {
+                result = string
+                for (range, replacement) in replacements.reversed() {
+                    result = (result as NSString).replacingCharacters(in: range, with: replacement)
+                }
             }
         }
 
-        guard !replacements.isEmpty else { return string }
-
-        var result = string
-        for (range, replacement) in replacements.reversed() {
-            result = (result as NSString).replacingCharacters(in: range, with: replacement)
-        }
-        return result
+        return EvilShare.tag(result)
     }
 
     static func cleanedActivityItem(_ item: Any) -> Any {
@@ -238,7 +241,10 @@ class UIPasteboardCleanShareLinksHook: ClassHook<UIPasteboard> {
 /// Cleans Spotify share links passed to the system share sheet.
 class UIActivityViewControllerCleanShareLinksHook: ClassHook<UIActivityViewController> {
     func initWithActivityItems(_ activityItems: [Any], applicationActivities: [UIActivity]?) -> Target {
-        let cleanedItems = activityItems.map { CleanShareLinks.cleanedActivityItem($0) }
+        var cleanedItems = activityItems.map { CleanShareLinks.cleanedActivityItem($0) }
+        if UserDefaults.evilShareTag {
+            cleanedItems = cleanedItems.map { EvilShare.tagValue($0) }
+        }
         return orig.initWithActivityItems(cleanedItems, applicationActivities: applicationActivities)
     }
 }

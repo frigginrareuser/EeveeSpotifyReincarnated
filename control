@@ -1,9 +1,9 @@
 Package: com.eevee.spotify
-Name: EeveeSpotify
-Version: 7.0.0
+Name: Evil Spotify
+Version: 7.2.0
 Architecture: iphoneos-arm
-Description: A tweak to get Spotify Premium for free, just like Spotilife
+Description: The evil meme client — Spotify Premium unlocked, red on black (based on EeveeSpotifyReincarnated)
 Maintainer: jaydenjcpy
-Author: Eevee
+Author: Evil Spotify
 Section: Tweaks
 Depends: ${ORION}, firmware (>= 16.1)

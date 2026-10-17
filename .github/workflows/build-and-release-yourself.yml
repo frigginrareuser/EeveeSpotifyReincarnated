@@ -136,6 +136,16 @@ jobs:
           zip -qry "$(basename "$OUT_IPA")" Payload
           rm -rf Payload
 
+      - name: Stage alternate app icons
+        run: |
+          chmod +x Tools/alt-icons.sh
+          Tools/alt-icons.sh "$OUT_IPA"
+
+      - name: Rename app to Evil Spotify (Patched Duplicate inherits via copy)
+        run: |
+          chmod +x Tools/evil-rename.sh
+          Tools/evil-rename.sh "$OUT_IPA"
+
       - name: Create Patched Duplicate & LC-inject zxPluginsInject
         run: |
           PATCHED_OUT="${OUT_IPA%.ipa}-patched.ipa"
@@ -143,11 +153,6 @@ jobs:
           ipapatch --input "$PATCHED_OUT" --inplace --noconfirm \
                    --dylib packages/zxPluginsInject.dylib
           echo "PATCHED_IPA=$PATCHED_OUT" >> $GITHUB_ENV
-
-      - name: Stage alternate app icons
-        run: |
-          chmod +x Tools/alt-icons.sh
-          Tools/alt-icons.sh "$OUT_IPA"
 
       - name: Upload IPA artifact
         if: ${{ inputs.upload_method == 'artifacts' || inputs.upload_method == 'both' }}

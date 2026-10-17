@@ -16,7 +16,7 @@ struct PlayerTiltSuppressGroup: HookGroup {}
 }
 
 enum PlayerZoneAction: String {
-    case seekBack, seekForward, playPause, previous, next
+    case seekBack, seekForward, playPause, previous, next, save
 
     var symbol: String {
         switch self {
@@ -25,6 +25,7 @@ enum PlayerZoneAction: String {
         case .playPause: return "playpause.fill"
         case .previous: return "backward.fill"
         case .next: return "forward.fill"
+        case .save: return "heart.fill"
         }
     }
 
@@ -34,6 +35,7 @@ enum PlayerZoneAction: String {
         case .previous: return "SPTNowPlayingPreviousTrackButton"
         case .next: return "SPTNowPlayingNextTrackButton"
         case .playPause: return "SPTNowPlayingPlayButton"
+        case .save: return "Components.UI.AddToButton"
         }
     }
 }
@@ -47,8 +49,13 @@ final class PlayerGestures: NSObject, UIGestureRecognizerDelegate {
     private static let seekStep = 10.0
 
     private let actions: [PlayerZoneAction] = {
-        let sides: [PlayerZoneAction] = PlayerGestures.options.doubleTap == .seek ? [.seekBack, .seekForward] : [.previous, .next]
-        return PlayerGestures.options.threeZones ? [sides[0], .playPause, sides[1]] : sides
+        let sides: [PlayerZoneAction]
+        switch PlayerGestures.options.doubleTap {
+        case .seek: sides = [.seekBack, .seekForward]
+        case .save: sides = [.save]
+        default: sides = [.previous, .next]
+        }
+        return PlayerGestures.options.threeZones && PlayerGestures.options.doubleTap != .save ? [sides[0], .playPause, sides[1]] : sides
     }()
 
     func attach(to host: UIView) {
@@ -78,6 +85,12 @@ final class PlayerGestures: NSObject, UIGestureRecognizerDelegate {
     }
 
     private func perform(_ action: PlayerZoneAction, near host: UIView) -> String? {
+        // Save/like has no direct playback-controller call; it always goes
+        // through the visible "Add to" (heart) button, which toggles the save.
+        if action == .save, let id = action.buttonId {
+            let button = host.window?.eeveeFirst(UIView.self) { $0.accessibilityIdentifier == id }
+            return button.map { EeveeFireTap($0) } == true ? nil : "no save button"
+        }
         if let object = Self.playback {
             let player = unsafeBitCast(object, to: NowPlayingPlayback.self)
             switch action {
@@ -86,6 +99,7 @@ final class PlayerGestures: NSObject, UIGestureRecognizerDelegate {
             case .playPause: player.setPaused(!player.isPaused)
             case .previous: player.skipToPreviousWhileDragging(false)
             case .next: player.skipToNextWhileDragging(false)
+            case .save: break // handled above via the heart button
             }
             return nil
         }

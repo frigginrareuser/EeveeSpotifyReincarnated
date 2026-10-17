@@ -89,7 +89,7 @@ livecontainer_sharing_description = "Надіслати у LiveContainer і ск
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Здається, у вас є активна підписка Premium. Твік не буде змінювати дані та обмежувати використання серверних функцій. Ви можете керувати цим в налаштуваннях EeveeSpotify.";
+have_premium_popup = "Здається, у вас є активна підписка Premium. Твік не буде змінювати дані та обмежувати використання серверних функцій. Ви можете керувати цим в налаштуваннях Evil Spotify.";
 high_audio_quality_popup = "Дуже висока якість недоступна з твіком, оскільки надається на стороні сервера.";
 playlist_downloading_popup = "Вбудоване завантаження плейлистів здійснюється з сервера і недоступне з твіком. Однак ви можете завантажувати епізоди подкастів.";
 download_local_playlist = "Завантажити локальний плейлист";
@@ -137,9 +137,9 @@ ad_free_music_listening = "Музика без реклами";
 play_songs_in_any_order = "Слухайте треки в будь-якому порядку";
 organize_listening_queue = "Керування чергою прослуховування";
 
-payment_notice = "EeveeSpotify застосовує патчі, щоб розблокувати деякі функції Premium. Це безкоштовно.";
+payment_notice = "Evil Spotify застосовує патчі, щоб розблокувати деякі функції Premium. Це безкоштовно.";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "Підтримати проєкт";
 support_the_project_description = "Ваш внесок допомагає оновлювати цей твік і купити Гисану зілля хоробрості для Ельзи.";
 
@@ -363,7 +363,7 @@ episode_header = "Випуск %@";
 home_gradient_style = "Стиль";
 home_gradient_style_gradient = "Градієнт";
 home_gradient_style_solid = "Однотонний";
-spicylyrics_description = "SpicyLyrics надає караоке-тексти з пословним підсвічуванням. За замовчуванням використовується вбудований ключ. Щоб використати власний ключ, відкрийте Spicy ESR template і натисніть «Sign in». Після входу погодьтеся з ToS Spicy і натисніть «Add ESR to my account». Після додавання скопіюйте створений ключ, вставте його в розділ текстів Eevee, потім поверніться до Spicy і натисніть «I have stored it». Далі перейдіть на сторінку застосунків.";
+spicylyrics_description = "SpicyLyrics надає караоке-тексти з пословним підсвічуванням. За замовчуванням використовується вбудований ключ. Щоб використати власний ключ, відкрийте Spicy ESR template і натисніть «Sign in». Після входу погодьтеся з ToS Spicy і натисніть «Add ESR to my account». Після додавання скопіюйте створений ключ, вставте його в розділ текстів Evil Spotify, потім поверніться до Spicy і натисніть «I have stored it». Далі перейдіть на сторінку застосунків.";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "Власний екран тексту";
 no_debug_log_found = "Журнал налагодження не знайдено. Запис журналу починається, коли ввімкнено параметр журналу налагодження.";
@@ -500,3 +500,38 @@ categoriesSectionDeps1 = "Off = ignore. Show = draw on the bar only. Manual = pr
 spicylyrics_api_key_placeholder = "Enter the Spicy client key";
 lyrics_source_restart_popup = "Restart Spotify so the new lyrics source is used everywhere. Songs you already played keep their old lyrics until then.";
 restart_later = "Later";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

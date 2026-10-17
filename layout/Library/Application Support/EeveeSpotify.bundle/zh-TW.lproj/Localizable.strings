@@ -23,9 +23,9 @@ restart_is_required_description = "變更後需要重啟";
 // 修補
 
 do_not_patch_premium = "我擁有 Premium 訂閱";
-patching_description = "EeveeSpotify 會即時攔截使用者資料，將起反序列化後修改參數。
+patching_description = "Evil Spotify 會即時攔截使用者資料，將起反序列化後修改參數。
 
-若您擁有有效的 Premium 訂閱，則可以啟用該選項。EeveeSpotify 將不會修改你的使用者資料亦或是限制部分 Premium 功能。
+若您擁有有效的 Premium 訂閱，則可以啟用該選項。Evil Spotify 將不會修改你的使用者資料亦或是限制部分 Premium 功能。
 
 %@";
 
@@ -46,14 +46,14 @@ Genius: 最佳、最多、最新的歌詞來源，但不具備同步歌詞。
 LRCLIB: 最開放的歌詞來源，並且提供同步歌詞，然而缺失大量歌曲。
 
 Musixmatch: 大部分地區 Spotify 預設使用的來源。雖然提供大量的同步歌詞與翻譯，您需要擁有使用者權杖以使用。";
-lyrics_additional_info = "若 EeveeSpotify 無法提供歌詞，則您會看到「無法加載歌詞」提示（可隱藏）。以 Genius 為來源時可能會由於 EeveeSpotify 查找歌詞方式的問題而出現曲詞對應錯誤的問題，不過在大部分情況下可以正常運作。";
+lyrics_additional_info = "若 Evil Spotify 無法提供歌詞，則您會看到「無法加載歌詞」提示（可隱藏）。以 Genius 為來源時可能會由於 Evil Spotify 查找歌詞方式的問題而出現曲詞對應錯誤的問題，不過在大部分情況下可以正常運作。";
 petitlyrics_description = "PetitLyrics: 日本區 Spotify 預設歌詞來源，提供大量的已同步日文歌歌詞和部分外文歌歌詞。";
 
 musixmatch_user_token = "Musixmatch 使用者權杖";
 user_token_placeholder = "在此輸入 Musixmatch 使用者權杖或貼上除錯資訊";
 
 enter_user_token = "輸入使用者權杖";
-enter_user_token_message = "欲使用 Musixmatch 作為歌詞來源，您可以於 EeveeSpotify 內直接取得（建議方案）、從 Musixmatch 應用程式中複製除錯資訊（較繁瑣）亦或是對 Musixmatch 進行 MITM（中間人攻擊）來提取使用者權杖（較困難）。";
+enter_user_token_message = "欲使用 Musixmatch 作為歌詞來源，您可以於 Evil Spotify 內直接取得（建議方案）、從 Musixmatch 應用程式中複製除錯資訊（較繁瑣）亦或是對 Musixmatch 進行 MITM（中間人攻擊）來提取使用者權杖（較困難）。";
 
 genius_fallback = "回退至 Genius";
 genius_fallback_description = "若 %@ 發生問題則回退至 Genius。";
@@ -102,10 +102,10 @@ clean_share_links_description = "清除網址追蹤碼";
 
 /* MARK: Premium 提示 */
 
-have_premium_popup = "您看起來擁有可用的 Premium 訂閱，故 EeveeSpotify 將不會修改您的資料或限制部分 Premium 功能。您仍可於 EeveeSpotify 設定中管理。";
+have_premium_popup = "您看起來擁有可用的 Premium 訂閱，故 Evil Spotify 將不會修改您的資料或限制部分 Premium 功能。您仍可於 Evil Spotify 設定中管理。";
 
-high_audio_quality_popup = "極高音質為伺服器端控制，故 EeveeSpotify 無法啟用。";
-playlist_downloading_popup = "原生的歌曲下載功能為伺服器端控制，故 EeveeSpotify 無法啟用。不過您仍可下載播客和本機（區域網路）檔案。";
+high_audio_quality_popup = "極高音質為伺服器端控制，故 Evil Spotify 無法啟用。";
+playlist_downloading_popup = "原生的歌曲下載功能為伺服器端控制，故 Evil Spotify 無法啟用。不過您仍可下載播客和本機（區域網路）檔案。";
 download_local_playlist = "下載區域網路歌曲或播放清單";
 
 //
@@ -141,7 +141,7 @@ liked_songs = "已按讚的歌曲";
 contributors = "貢獻者";
 
 request_anonymous_token = "請求使用者權杖";
-request_anonymous_token_description = "點擊「請求使用者權杖」後 EeveeSpotify 將嘗試在沒有 Musixmatch 帳號的情況下取得。";
+request_anonymous_token_description = "點擊「請求使用者權杖」後 Evil Spotify 將嘗試在沒有 Musixmatch 帳號的情況下取得。";
 
 lrclib_api = "伺服器";
 
@@ -151,7 +151,7 @@ ad_free_music_listening = "無廣告暢聽音樂";
 play_songs_in_any_order = "由你決定歌曲播放順序";
 organize_listening_queue = "整理聆聽佇列";
 
-payment_notice = "EeveeSpotify 通過應用修補以啟用 Premium 功能且完全免費。";
+payment_notice = "Evil Spotify 通過應用修補以啟用 Premium 功能且完全免費。";
 
 // 除錯
 
@@ -297,7 +297,7 @@ categoriesTitle = "分類";
 categoriesSectionTitle1 = "分類動作";
 categoriesSectionDeps1 = "關閉 = 忽略，顯示 = 僅在進度列上顯示片段，手動 = 跳過前詢問，自動 = 直接跳過";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "支持本專案";
 support_the_project_description = "你的支持讓這個 tweak 持續更新，也幫 Hysan 幫 Elsa 買一份勇氣的藥水。";
 
@@ -521,7 +521,7 @@ episode_header = "第 %@ 集";
 home_gradient_style = "樣式";
 home_gradient_style_gradient = "漸變";
 home_gradient_style_solid = "純色";
-spicylyrics_description = "SpicyLyrics 提供逐字卡拉 OK 歌詞。預設使用內建金鑰。如果想使用自己的金鑰，請前往 Spicy ESR template，然後點選「Sign in」按鈕。登入後，同意 Spicy 的 ToS 並點選「Add ESR to my account」。新增完成後，複製生成的金鑰，貼上到 Eevee 歌詞部分，然後回到 Spicy 並點選「I have stored it」。接著前往 App 頁面。";
+spicylyrics_description = "SpicyLyrics 提供逐字卡拉 OK 歌詞。預設使用內建金鑰。如果想使用自己的金鑰，請前往 Spicy ESR template，然後點選「Sign in」按鈕。登入後，同意 Spicy 的 ToS 並點選「Add ESR to my account」。新增完成後，複製生成的金鑰，貼上到 Evil Spotify 歌詞部分，然後回到 Spicy 並點選「I have stored it」。接著前往 App 頁面。";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "自定義歌詞檢視";
 debug_logging = "除錯日誌";
@@ -535,3 +535,38 @@ spicylyrics_api_key_placeholder = "輸入 Spicy 用戶端金鑰";
 glass_lyrics_view = "自定義歌詞檢視";
 lyrics_source_restart_popup = "請重新啟動 Spotify，讓新的歌詞來源在所有位置生效。在此之前，已播放過的歌曲會保留舊歌詞。";
 restart_later = "稍後";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";

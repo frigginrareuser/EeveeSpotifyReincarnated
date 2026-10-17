@@ -1,5 +1,6 @@
 import UIKit
 import Orion
+import SwiftUI
 
 struct PopUpHelper {
     private static var isPopUpShowing = false
@@ -26,7 +27,7 @@ struct PopUpHelper {
             let model = Dynamic.SPTEncorePopUpDialogModel
                 .alloc(interface: SPTEncorePopUpDialogModel.self)
                 .initWithTitle(
-                    "EeveeSpotify",
+                    "Evil Spotify",
                     description: message,
                     image: nil,
                     primaryButtonTitle: buttonText,

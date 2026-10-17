@@ -72,7 +72,7 @@ dark_popups = "다크 팝업";
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "활성 프리미엄 구독이 있는 것처럼 보이므로, 조정은 데이터를 패치하거나 프리미엄 서버 측 기능의 사용을 제한하지 않습니다. EeveeSpotify 설정에서 이것을 관리할 수 있습니다.";
+have_premium_popup = "활성 프리미엄 구독이 있는 것처럼 보이므로, 조정은 데이터를 패치하거나 프리미엄 서버 측 기능의 사용을 제한하지 않습니다. Evil Spotify 설정에서 이것을 관리할 수 있습니다.";
 
 high_audio_quality_popup = "매우 높은 오디오 품질은 서버 측이며 이 트윅으로 사용할 수 없습니다.";
 playlist_downloading_popup = "네이티브 재생 목록 다운로드는 서버 측이며 이 트윅에서는 사용할 수 없습니다. 하지만 팟캐스트 에피소드를 다운로드할 수 있습니다.";
@@ -99,7 +99,7 @@ unknown_error = "알 수 없는 오류";
 song_is_instrumental = "이 노래는 악기전용 노래입니다.";
 let_the_music_play = "음악이 재생되게 놔두세요...";
 
-// Support the Project, links to Ko-fi in EeveeSettingsView
+// Support the Project, links to Ko-fi in SettingsView
 support_the_project = "프로젝트 후원하기";
 support_the_project_description = "후원으로 이 tweak가 계속 업데이트되고 Hysan이 Elsa를 위한 용기 물약을 살 수 있도록 돕습니다.";
 
@@ -323,7 +323,7 @@ episode_header = "에피소드 %@";
 home_gradient_style = "스타일";
 home_gradient_style_gradient = "그라데이션";
 home_gradient_style_solid = "단색";
-spicylyrics_description = "SpicyLyrics는 단어별 노래방 가사를 제공합니다. 기본적으로 내장 키가 사용됩니다. 직접 키를 사용하려면 Spicy ESR template으로 이동하여 \"Sign in\" 버튼을 누르세요. 로그인한 후 Spicy의 ToS에 동의하고 \"Add ESR to my account\"를 누릅니다. 추가되면 생성된 키를 복사하여 Eevee 가사 섹션에 붙여넣은 다음, Spicy로 돌아가 \"I have stored it\"을 클릭하세요. 그런 다음 앱 페이지로 이동하세요.";
+spicylyrics_description = "SpicyLyrics는 단어별 노래방 가사를 제공합니다. 기본적으로 내장 키가 사용됩니다. 직접 키를 사용하려면 Spicy ESR template으로 이동하여 \"Sign in\" 버튼을 누르세요. 로그인한 후 Spicy의 ToS에 동의하고 \"Add ESR to my account\"를 누릅니다. 추가되면 생성된 키를 복사하여 Evil Spotify 가사 섹션에 붙여넣은 다음, Spicy로 돌아가 \"I have stored it\"을 클릭하세요. 그런 다음 앱 페이지로 이동하세요.";
 spicylyrics_template_link = "Spicy ESR template";
 karaoke_word_synced_button = "사용자 지정 가사 보기";
 no_debug_log_found = "디버그 로그를 찾을 수 없습니다. 디버그 로깅 옵션을 켜면 로그 기록이 시작됩니다.";
@@ -365,7 +365,7 @@ lrclib_api = "Server Address";
 ad_free_music_listening = "Ad-free music listening";
 play_songs_in_any_order = "Play songs in any order";
 organize_listening_queue = "Organize listening queue";
-payment_notice = "EeveeSpotify applies patches to unlock certain Premium features. It's free.";
+payment_notice = "Evil Spotify applies patches to unlock certain Premium features. It's free.";
 debug_title = "Debug";
 export_debug_log = "Export Debug Log";
 clear_debug_log = "Clear Debug Log";
@@ -480,3 +480,38 @@ categoriesSectionDeps1 = "Off = ignore. Show = draw on the bar only. Manual = pr
 spicylyrics_api_key_placeholder = "Enter the Spicy client key";
 lyrics_source_restart_popup = "Restart Spotify so the new lyrics source is used everywhere. Songs you already played keep their old lyrics until then.";
 restart_later = "Later";
+
+/* Playback tools (Evil Spotify) */
+playback = "Playback Tools";
+playback_subtitle = "Sleep timer & keep screen on";
+sleep_timer = "Sleep Timer";
+sleep_timer_duration = "Stop playing after";
+sleep_timer_duration_off = "Off";
+sleep_timer_minutes = "%d min";
+sleep_timer_active = "Playback pauses in %@";
+sleep_timer_cancel = "Cancel sleep timer";
+sleep_timer_expired = "Sleep timer finished — playback paused";
+sleep_timer_footer = "When the timer runs out, playback pauses automatically. The countdown shows while this page is open.";
+keep_screen_on = "Keep Screen On";
+keep_screen_on_subtitle = "Blocks auto-lock while Spotify is open";
+keep_screen_on_footer = "The screen stays awake while the app is in the foreground; auto-lock returns as soon as you leave Spotify.";
+block_update_prompts = "Hide update prompts";
+block_update_prompts_footer = "Hides Spotify's popup asking you to update to the latest version.";
+player_double_tap_save = "Save song";
+ok = "OK";
+
+/* Evil Spotify branding */
+evil_mode = "Evil Mode";
+evil_mode_subtitle = "Pitch black + evil red accent";
+evil_mode_active = "The darkness has you now";
+evil_greetings = "Evil greetings";
+evil_greetings_footer = "Shows a random evil-themed message when Spotify starts.";
+evil_greeting_ack = "Yes, master";
+evil_greeting_welcome = "Welcome back to the dark side. Premium looks good on you.";
+evil_greeting_deals = "Special deal: 0% off evil Premium forever.";
+evil_greeting_soul = "Payment method accepted: souls. Yours has been charged anyway.";
+evil_greeting_skips = "Infinite skips granted. The queue is at your mercy.";
+evil_greeting_lyrics = "Lyrics unlocked. Sing along, if you dare.";
+evil_greeting_battery = "Your battery is now 66.6% more evil.";
+evil_share_tag = "Evil share signature";
+evil_share_tag_footer = "Appends an evil-themed line under links you share from Spotify.";
